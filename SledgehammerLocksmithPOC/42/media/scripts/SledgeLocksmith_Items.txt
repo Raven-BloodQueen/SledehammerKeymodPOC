@@ -1,0 +1,20 @@
+module SledgeLocksmith
+{
+    item LocksmithTool
+    {
+        ItemType = base:normal,
+        DisplayCategory = Tool,
+        Weight = 0.5,
+        Icon = Screwdriver,
+        CanStack = false,
+    }
+
+    item LockImprint
+    {
+        ItemType = base:normal,
+        DisplayCategory = Security,
+        Weight = 0.1,
+        Icon = Key1,
+        CanStack = false,
+    }
+}

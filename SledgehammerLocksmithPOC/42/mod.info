@@ -1,0 +1,5 @@
+name=Sledgehammer Locksmith - 0.0.2 POC
+id=SledgehammerLocksmithPOC
+description=Build 42.20.x proof of concept: preserves 0.0.1 key duplication and adds vanilla IsoDoor rekeying plus save/reload persistence testing. Single-player/local test only.
+author=Sledgehammer RP Dev Test
+modversion=0.0.2

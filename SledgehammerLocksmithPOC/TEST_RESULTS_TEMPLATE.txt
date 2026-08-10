@@ -1,0 +1,31 @@
+SLEDGEHAMMER LOCKSMITH 0.0.2 - TEST RESULT
+
+PZ build: 42.20.x
+Save type: Single-player / local
+
+DOOR A (target)
+Location:
+Original KeyId:
+Old Key A created?: YES / NO
+
+DOOR B (donor)
+Location:
+KeyId:
+Key B created?: YES / NO
+
+REKEY
+Did Door A change from A ID -> B ID?: YES / NO
+Did Inspect Door Rekey State show the new ID?: YES / NO
+Did OLD Key A fail after rekey?: YES / NO
+Did Key B open Door A after rekey?: YES / NO
+
+SAVE / RELOAD
+Did Door A still report B's KeyId after reload?: YES / NO
+Did the audit marker old A -> new B survive reload?: YES / NO
+Did OLD Key A still fail?: YES / NO
+Did Key B still open Door A?: YES / NO
+
+Errors / weird behavior:
+
+Relevant console lines containing:
+[SLEDGE-LOCK 0.0.2]
